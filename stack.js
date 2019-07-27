@@ -57,7 +57,6 @@ function is_palindrome(s) {
   for (let i = 0; i < half; i++) {
     s1.push(s[i])
   }
-  display(s1)
   let start = 0;
   if (s.length % 2 === 1) {
     start = half + 1
@@ -117,7 +116,7 @@ function main() {
   // console.log(starTrek.top);
 
   // True, true, true, false
-  // console.log(is_palindrome('dad'))
+  console.log(is_palindrome('dad'))
   // console.log(is_palindrome('A man, a plan, a canal: Panama'))
   // console.log(is_palindrome('1001'))
   // console.log(is_palindrome('Tauhida'))
